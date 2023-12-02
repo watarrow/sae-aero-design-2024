@@ -1,0 +1,54 @@
+Model: Conventional_wing_aircraft_EPPLER 421 AIRFOIL.SLDPRT
+Project name: 13 mps
+Config name: Default
+Project path: C:\Users\joshu\Desktop\GIT\jmp02\Airfoil Analysis\3\3.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 351309
+    Fluid cells: 351309
+    Solid cells: 235642
+    Fluid cells containing solids: 141640
+
+
+Geometry preparation finished: 19:57:54
+Geometry preparation time: 00:00:13
+Solver CPU time: 01:02:22
+Iterations: 831
+Travels: 5.88854
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 20:59:42
+CPU time per last iteration: 00:00:22
+CPU time left: 00:00:00
+Iterations per 1 travel: 142
+
+Goals
+    Name                  | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Normal Force (Y) 1 | force    |           26.30 |     100.0 |            1.75 |            0.02 | On
+    GG Normal Force (Z) 2 | force    |            4.74 |     100.0 |            1.14 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: On
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2022  x64 / 5593 / SOLVER ver. efd_2021_2.5587_14.01.2022+LamBL_4order_point_appr
+    CAD version: SOLIDWORKS 2022 SP3.1
+    Computer name: JOSHSAERO17
+    User name: joshu
+    Operating system: Windows 10 (or higher) (Version 10.0.22621)
+    Processors: 12th Gen Intel(R) Core(TM) i7-12700H
+    Number of cores: 20
+    Memory: 3647 MB / 16049 MB
+

@@ -1,0 +1,78 @@
+{
+    "version": 0,
+    "model_name": "Conventional_wing_aircraft_EPPLER 421 AIRFOIL.SLDPRT",
+    "project_name": "13 mps",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\joshu\\Desktop\\GIT\\jmp02\\Airfoil Analysis\\3\\3.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 351309,
+        "cells_fluid": 351309,
+        "cells_solid": 235642,
+        "cells_fluid_containing_solid": 141640
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "19:57:54-0500",
+        "prepare_geometry_total_time": 13,
+        "cpu_time_solver_total": 3742,
+        "iteration": 831,
+        "travel": 5.888544182960685,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "20:59:42-0500",
+        "cpu_time_per_last_iter": 22,
+        "cpu_time_left": -1,
+        "iterations_per_travel": 142
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Normal Force (Y) 1",
+                "unit": "force",
+                "value": 26.29797146635941,
+                "progress": 100.0,
+                "criteria": 1.746885055212523,
+                "delta": 0.015670457778327318,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Normal Force (Z) 2",
+                "unit": "force",
+                "value": 4.736487646462865,
+                "progress": 100.0,
+                "criteria": 1.1370963422994984,
+                "delta": 0.0012739852352865455,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": true,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5593 / SOLVER ver. efd_2021_2.5587_14.01.2022+LamBL_4order_point_appr",
+        "cad_version": "SOLIDWORKS 2022 SP3.1",
+        "computer_name": "JOSHSAERO17",
+        "user_name": "joshu",
+        "os": "Windows 10 (or higher) (Version 10.0.22621)",
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+        "number_of_cores": 20,
+        "memory_avail": 3647,
+        "memory_total": 16049
+    }
+}
