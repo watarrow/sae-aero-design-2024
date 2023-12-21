@@ -30,6 +30,8 @@ This is a repository meant for WatArrow to share competition materials regarding
 6. Wait for approval
 7. Once approved, **Squash and Merge**
 
+---
+
 ## Notes
 
 - MAKE SURE TO CHECKOUT FILES ON THE **[FILE VAULT](https://github.com/orgs/watarrow/projects/1/views/1)**
