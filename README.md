@@ -2,6 +2,8 @@
 
 This is a repository meant for WatArrow to share competition materials regarding the SAE Aero Design 2024 Competition. All contents of this repository are private until open sourced in the future.
 
+**If you run into any problems or have any questions, please message the #github channel on the WatArrow Discord.**
+
 ---
 
 ## CAD Usage
@@ -45,4 +47,4 @@ This is a repository meant for WatArrow to share competition materials regarding
 
 ---
 
-**If you run into any problems or have any questions, please message the #GitHub channel on the WatArrow Discord.**
+**If you run into any problems or have any questions, please message the #github channel on the WatArrow Discord.**
