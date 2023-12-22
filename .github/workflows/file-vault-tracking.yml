@@ -25,17 +25,13 @@ jobs:
           files: |
             **.SLDASM
 
-      - name: Split all modified assembly files by delimiter
-        id: split
-        if: steps.modified-assembly-files.outputs.any_modified == 'true'
-        uses: rishabhgupta/split-by@v1
-        with:
-          string: ${{steps.modified-assembly-files.outputs.all_modified_file}}
-          split-by: ","
-
       - name: List all modified Assembly files
         if: steps.modified-assembly-files.outputs.any_modified == 'true'
         run: |
-          for file in ${{steps.split.outputs}}[@]; do
-            echo "$file was changed"
+          modified_files_string=${{steps.modified-assembly-files.outputs.all_modified_files}}
+          IFS= read -ra modified_files <<< "$modified_files_string"
+
+          for file in ${modified_files[@]}
+          do
+              echo "|$file|"
           done
