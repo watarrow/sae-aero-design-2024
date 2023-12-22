@@ -6,6 +6,8 @@ This is a repository meant for WatArrow to share competition materials regarding
 
 ## CAD Usage
 
+### You MUST checkout Assembly files in the **[File Vault](https://github.com/orgs/watarrow/projects/1/views/1) before making any changes!**
+
 ### Making Changes
 
 1. Create a new branch (thomasjuhonkim/test-branch)
@@ -34,7 +36,7 @@ This is a repository meant for WatArrow to share competition materials regarding
 
 ## Notes
 
-- MAKE SURE TO CHECKOUT FILES ON THE **[FILE VAULT](https://github.com/orgs/watarrow/projects/1/views/1)**
+- MAKE SURE TO CHECKOUT FILES ON THE FILE VAULT
 - MAKE SURE TO CREATE/DELETE FILES ON THE FILE VAULT
 - ~~Automation workflows are set up such that tracking the File Vault is handled automatically.~~
   - ~~If you are creating or deleting assemblies, creation and deletion of issues on the File Vault are handled upon Pull Request merge.~~
