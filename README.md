@@ -35,8 +35,9 @@ This is a repository meant for WatArrow to share competition materials regarding
 ## Notes
 
 - MAKE SURE TO CHECKOUT FILES ON THE **[FILE VAULT](https://github.com/orgs/watarrow/projects/1/views/1)**
-- Automation workflows are set up such that tracking the File Vault is handled automatically.
-  - If you are creating or deleting assemblies, creation and deletion of issues on the File Vault are handled upon Pull Request merge.
+- MAKE SURE TO CREATE/DELETE FILES ON THE FILE VAULT
+- ~~Automation workflows are set up such that tracking the File Vault is handled automatically.~~
+  - ~~If you are creating or deleting assemblies, creation and deletion of issues on the File Vault are handled upon Pull Request merge.~~
 - DO NOT DELETE `Full Assembly.SLDASM` This is the master assembly that is crucial to our asynchronous workflows.
 - DO NOT DELETE `.gitignore` as this file prevents temporary files such as `~${your-file.SLDPRT}` from being committed.
 
