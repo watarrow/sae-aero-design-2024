@@ -30,6 +30,7 @@ This is a repository meant for WatArrow to share competition materials regarding
 4. Add metadata
    1. Add yourself as the assignee
    2. Add supervisors as reviewer(s)
+      1. Make sure to add Thomas as a reviewer.
 5. Complete the pull request
 6. Wait for approval
 7. Once approved, **Squash and Merge**
@@ -40,10 +41,8 @@ This is a repository meant for WatArrow to share competition materials regarding
 
 - MAKE SURE TO CHECKOUT FILES ON THE FILE VAULT
 - MAKE SURE TO CREATE/DELETE FILES ON THE FILE VAULT
-- ~~Automation workflows are set up such that tracking the File Vault is handled automatically.~~
-  - ~~If you are creating or deleting assemblies, creation and deletion of issues on the File Vault are handled upon Pull Request merge.~~
 - DO NOT DELETE `Full Assembly.SLDASM` This is the master assembly that is crucial to our asynchronous workflows.
-- DO NOT DELETE `.gitignore` as this file prevents temporary files such as `~${your-file.SLDPRT}` from being committed.
+- DO NOT DELETE `.gitignore` as this file prevents temporary files such as `~${your-file.SLDPRT}` and `~${your-file.SLDASM}` from being committed.
 
 ---
 
