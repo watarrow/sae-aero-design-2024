@@ -30,7 +30,7 @@ This is a repository meant for WatArrow to share competition materials regarding
 4. Add metadata
    1. Add yourself as the assignee
    2. Add supervisors as reviewer(s)
-      1. Make sure to add Thomas as a reviewer.
+      1. Make sure to add Thomas as a reviewer as he will resolve all merge conflicts before merging.
 5. Complete the pull request
 6. Wait for approval
 7. Once approved, **Squash and Merge**
